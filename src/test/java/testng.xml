@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1">
+	<!-- <listeners>
+		<listener class-name="com.test.utilities.TestListener"></listener>
+	</listeners> -->
+	<!-- <test name="Chrome-test">
+
+		<parameter name="browser" value="chrome" />
+		<parameter name="url" value="https://www.deviantart.com/" />
+
+		<classes>
+			<class name="testPackage.DeviantTest" />
+		</classes>
+
+	</test> -->
+	<!-- <test name="Firefox-test"> <parameter name="browser" value="firefox"/> 
+		<parameter name="url" value="https://www.deviantart.com/"/> <classes> <class 
+		name="testPackage.DeviantTest"/> </classes> </test> -->
+		<!-- <test name="Checkbox-test">
+		<parameter name="browser" value="chrome" />
+		<parameter name="url" value="https://www.deviantart.com/" />
+			<classes>
+			<class name="testPackage.CheckboxTest" />
+		</classes>
+		</test> -->
+		<test name="Dropdown-test">
+		<parameter name="browser" value="chrome" />
+		<parameter name="url" value="https://www.deviantart.com/" />
+			<classes>
+			<class name="testPackage.DropdownTest" />
+		</classes>
+		</test>
+</suite> 
